@@ -2,4 +2,4 @@
 
 env
 
-cat $DRONE_OUTPUT
+cat $DRONE_OUTPUT || echo 'no existing output file'
